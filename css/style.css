@@ -27,9 +27,17 @@ justify-content: right;
 }
 
 .star {
+    justify-content: center;
+display: flex;
+align-items: center;
+
+}
+
+.line {
+    width: 80px;
     background-color:white;
-    width: 30%;
-    height: 5px;
+    height: 3px;
+    
 }
 
 
@@ -82,7 +90,7 @@ div.footer-btm i{
     display: none;
     position: relative;
     width: 100%;
-    background-color: #00000054;
+    background-color: hsla(209, 83%, 48%, 0.329);
     height: 100%;
 }
 
@@ -100,4 +108,15 @@ transform: translate(-50% , -50%);
 
 div.img:hover img {
 display: none;
+}
+
+.fas.fa-star::before {
+    color:black;
+}
+
+.about button {
+    display: flex;
+    width: 150px;
+    align-self: center;
+
 }
